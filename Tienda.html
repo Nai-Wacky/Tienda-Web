@@ -21,10 +21,80 @@
             <h2 style="color: white;">Productos</h2>
         </div>
         
-        <div class="product">
-            <img src="Manzana.png" alt="Producto">
-            <span>Producto 1 - $10</span>
-            <button onclick="cart.addProduct(new Product('Producto 1', 10, 'https://via.placeholder.com/50'))">Agregar</button>
+        <div class="contenedor">
+    
+            <div class="carrusel">
+                <button class="boton boton-izquierda" onclick="moverCarrusel(-1)">
+                    <img src="https://cdn-icons-png.flaticon.com/512/271/271220.png" alt="izquierda">
+                </button>
+                
+                <div class="carrusel-contenido" id="carrusel">
+                    <div class="producto">
+                        <img src="Manzana.png" alt="Producto">
+                        <h3>Manzana Roja</h3>
+                        <p>$19.99</p>
+                        <button class="boton-agregar" onclick="cart.addProduct(new Product('Manzana', 10, 'Manzana.png'))">Añadir al carrito</button>
+                    </div>
+    
+                    <div class="producto">
+                        <img src="https://cdn-icons-png.flaticon.com/512/747/747376.png" alt="Producto">
+                        <h3>Nombre del producto</h3>
+                        <p>$199.99</p>
+                        <button class="boton-agregar" onclick="cart.addProduct(new Product('Manzana', 10, 'https://via.placeholder.com/50'))">Añadir al carrito</button>
+                    </div>
+    
+                    <div class="producto">
+                        <img src="https://cdn-icons-png.flaticon.com/512/747/747376.png" alt="Producto">
+                        <h3>Nombre del producto</h3>
+                        <p>$199.99</p>
+                        <button class="boton-agregar" onclick="cart.addProduct(new Product('Manzana', 10, 'https://via.placeholder.com/50'))">Añadir al carrito</button>
+                    </div>
+    
+                    <div class="producto">
+                        <img src="https://cdn-icons-png.flaticon.com/512/747/747376.png" alt="Producto">
+                        <h3>Nombre del producto</h3>
+                        <p>$199.99</p>
+                        <button class="boton-agregar" onclick="cart.addProduct(new Product('Manzana', 10, 'https://via.placeholder.com/50'))">Añadir al carrito</button>
+                        
+                    </div>
+
+                    <div class="producto">
+                        <img src="https://cdn-icons-png.flaticon.com/512/747/747376.png" alt="Producto">
+                        <h3>Nombre del producto</h3>
+                        <p>$199.99</p>
+                        <button class="boton-agregar" onclick="cart.addProduct(new Product('Manzana', 10, 'https://via.placeholder.com/50'))">Añadir al carrito</button>
+                        
+                    </div>
+
+                    <div class="producto">
+                        <img src="https://cdn-icons-png.flaticon.com/512/747/747376.png" alt="Producto">
+                        <h3>Nombre del producto</h3>
+                        <p>$199.99</p>
+                        <button class="boton-agregar" onclick="cart.addProduct(new Product('Manzana', 10, 'https://via.placeholder.com/50'))">Añadir al carrito</button>
+                        
+                    </div>
+
+                    <div class="producto">
+                        <img src="https://cdn-icons-png.flaticon.com/512/747/747376.png" alt="Producto">
+                        <h3>Nombre del producto</h3>
+                        <p>$199.99</p>
+                        <button class="boton-agregar" onclick="cart.addProduct(new Product('Manzana', 10, 'https://via.placeholder.com/50'))">Añadir al carrito</button>
+                        
+                    </div>
+
+                    <div class="producto">
+                        <img src="https://cdn-icons-png.flaticon.com/512/747/747376.png" alt="Producto">
+                        <h3>Nombre del producto</h3>
+                        <p>$199.99</p>
+                        <button class="boton-agregar" onclick="cart.addProduct(new Product('Manzana', 10, 'https://via.placeholder.com/50'))">Añadir al carrito</button>
+                        
+                    </div>
+                </div>
+    
+                <button class="boton boton-derecha" onclick="moverCarrusel(1)">
+                    <img src="https://cdn-icons-png.flaticon.com/512/271/271228.png" alt="derecha">
+                </button>
+            </div>
         </div>
 
         <h2 style="padding-top: 10px;">Carrito</h2>
@@ -33,5 +103,7 @@
         <script src="script.js"></script>
         
     </body>
+
+    <!-- <button onclick="cart.addProduct(new Product('Manzana', 10, 'https://via.placeholder.com/50'))">Agregar</button> -->
 
 </html>
