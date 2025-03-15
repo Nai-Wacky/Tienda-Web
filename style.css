@@ -64,6 +64,8 @@ bodyProductos {
 }
 
 .carrusel {
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     align-items: center;
     overflow: hidden;
